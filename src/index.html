@@ -1,0 +1,118 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин Forg 🐸 Toda</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Forg 🐸 Toda</h1>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h1 class="intro-title">САМЫЕ МИЛЫЕ товары с лягушками</h1>
+                <p class="intro-text">Милее только ты</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="buttons">
+                <button class="btn" id="show-all">Все</button>
+                <button class="btn" id="show-toys">Плюшевые изделия</button>
+                <button class="btn" id="show-hats">Головные уборы</button>
+                <button class="btn" id="show-favorites-btn">Избранное</button>
+            </div>
+            <div class="slider">
+                <input type="range" min="349" max="1099" value="100" id="priceSlider" style="margin-bottom: 10px;">
+                <p class="slider-price">Цена: <span id="priceValue">500</span> ₽</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="products">
+                <div class="product" data-favorite="false" data-hats="true" data-toys="false" data-all="true" data-price="599">                  
+
+                <div class="product-slider">
+                    <div class="slider-container">
+                        <div class="slider">
+                            <img src="img/hat 1.png" alt="Шапочка Лягушка 1">
+                            <img src="img/hat 2.png" alt="Шапочка Лягушка 2">
+                        </div>
+                    </div>
+                    <button class="prev-button">&lt;</button>
+                    <button class="next-button">&gt;</button>
+                </div>
+                    <h1>Шапочка Лягушка</h1>
+                    <span class="price" style="text-align: center;">599 ₽</span>
+                    <button class="favorite-btn" type="button">&#9825;</button>
+                </div>
+
+                <div class="product" data-favorite="false" data-hats="true" data-toys="false" data-all="true" data-price="649">      
+                <div class="product-slider">
+                    <div class="slider-container">
+                        <div class="slider">                    
+			<img src="img/Panama frog 1.png" alt="Панамка Лягух 1">
+			<img src="img/Panama frog 2.png" alt="Панамка Лягух 2">
+                        </div>
+                    </div>
+                    <button class="prev-button">&lt;</button>
+                    <button class="next-button">&gt;</button>
+                </div>
+                    <h1>Панамка Лягух</h1>
+                    <span class="price" style="text-align: center;">649 ₽</span>
+                    <button class="favorite-btn" type="button">&#9825;</button>
+                </div>
+
+                <div class="product" data-favorite="false" data-hats="false" data-toys="true" data-all="true" data-price="1099">                       
+                    <div class="product-slider">
+                    <div class="slider-container">
+                        <div class="slider"> 
+			<img src="img/Frog toy 1.png" alt="Игрушка Лягушонок 1">
+			<img src="img/Frog toy 2.png" alt="Игрушка Лягушонок 2">
+                        </div>
+                    </div>
+                    <button class="prev-button">&lt;</button>
+                    <button class="next-button">&gt;</button>
+                </div>
+                    <h1 style="text-align: center;">Игрушка Лягушонок</h1>
+                    <span class="price" style="text-align: center;">1099 ₽</span>
+                    <button class="favorite-btn" type="button">&#9825;</button>
+                </div>
+
+                <div class="product" data-favorite="false" data-hats="false" data-toys="true" data-all="true" data-price="349">
+                    <div class="product-slider">
+                    <div class="slider-container">
+                        <div class="slider"> 
+			<img src="img/Trinket Frog 1.png" alt="Брелок Лягух 1">
+			<img src="img/Trinket Frog 2.png" alt="Брелок Лягух 2">
+                        </div>
+                    </div>
+                    <button class="prev-button">&lt;</button>
+                    <button class="next-button">&gt;</button>
+                </div>
+                    <h1>Брелок Лягух</h1>
+                    <span class="price" style="text-align: center;">349 ₽</span>
+                    <button class="favorite-btn" type="button">&#9825;</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p class="cent">Все права защищены самой лучшей девочкой на свете&#169;</p>
+        <section class="inform">
+            <h3>Контактная информация:</h3>
+            <a href="mailto:ForgToda@gmail.com">ForgToda@gmail.com</a>
+            <br>
+            <a href="tel:+71234567890">Тел. +7 (123) 456 78-90</a>
+            <br>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
